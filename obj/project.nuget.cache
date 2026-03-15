@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8qyYu3qGHIc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chase\\Downloads\\Mist temp new\\Mist Temp\\Mist Temp\\Mist.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chase\\.nuget\\packages\\assemblypublicizer\\1.0.2\\assemblypublicizer.1.0.2.nupkg.sha512",
+    "C:\\Users\\chase\\.nuget\\packages\\bepinex.assemblypublicizer.msbuild\\0.4.3\\bepinex.assemblypublicizer.msbuild.0.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}
