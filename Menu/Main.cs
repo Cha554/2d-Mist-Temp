@@ -1,17 +1,17 @@
 ﻿using BepInEx;
 using HarmonyLib;
 using Photon.Pun;
-using StupidTemplate.Classes;
-using StupidTemplate.Notifications;
+using MistTemp.Classes;
+using MistTemp.Notifications;
 using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using static StupidTemplate.Menu.Buttons;
-using static StupidTemplate.Settings;
+using static MistTemp.Menu.Buttons;
+using static MistTemp.Settings;
 
-namespace StupidTemplate.Menu
+namespace MistTemp.Menu
 {
     [HarmonyPatch(typeof(GorillaLocomotion.GTPlayer))]
     [HarmonyPatch("LateUpdate", MethodType.Normal)]

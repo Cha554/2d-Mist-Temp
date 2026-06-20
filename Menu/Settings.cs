@@ -1,8 +1,8 @@
-﻿using StupidTemplate.Classes;
+﻿using MistTemp.Classes;
 using UnityEngine;
-using static StupidTemplate.Menu.Main;
+using static MistTemp.Menu.Main;
 
-namespace StupidTemplate
+namespace MistTemp
 {
     internal class Settings
     {

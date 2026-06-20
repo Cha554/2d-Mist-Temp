@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chase\\Downloads\\Mist temp new\\Mist Temp\\Mist Temp\\Mist.csproj",
+      "projectUniqueName": "D:\\2d-Mist-Temp\\Mist.csproj",
       "projectName": "Mist",
-      "projectPath": "C:\\Users\\chase\\Downloads\\Mist temp new\\Mist Temp\\Mist Temp\\Mist.csproj",
+      "projectPath": "D:\\2d-Mist-Temp\\Mist.csproj",
       "packagesPath": "C:\\Users\\chase\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chase\\Downloads\\Mist temp new\\Mist Temp\\Mist Temp\\obj\\",
+      "outputPath": "D:\\2d-Mist-Temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

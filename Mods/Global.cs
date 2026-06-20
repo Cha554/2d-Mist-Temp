@@ -1,6 +1,6 @@
-﻿using static StupidTemplate.Menu.Main;
+﻿using static MistTemp.Menu.Main;
 
-namespace StupidTemplate.Mods
+namespace MistTemp.Mods
 {
     internal class Global
     {

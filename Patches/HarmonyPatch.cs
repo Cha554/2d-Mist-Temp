@@ -1,10 +1,13 @@
-﻿using System.Reflection;
+﻿using CjLib;
 using HarmonyLib;
+using MistTemp;
+using System.Net.Http;
+using System.Reflection;
 using UnityEngine;
 
-namespace StupidTemplate.Patches
+namespace CFA.Patches
 {
-    public class Menu : MonoBehaviour
+    public class HarmonyPatches : MonoBehaviour
     {
         public static bool IsPatched { get; private set; }
 
@@ -14,7 +17,7 @@ namespace StupidTemplate.Patches
             {
                 if (instance == null)
                 {
-                    instance = new Harmony(StupidTemplate.PluginInfo.GUID);
+                    instance = new Harmony(PluginInfo.GUID);
                 }
                 instance.PatchAll(Assembly.GetExecutingAssembly());
                 IsPatched = true;
@@ -29,6 +32,6 @@ namespace StupidTemplate.Patches
             }
         }
 
-        private static Harmony instance;
+        private static Harmony? instance;
     }
 }

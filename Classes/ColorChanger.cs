@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace StupidTemplate.Classes
+namespace MistTemp.Classes
 {
     public class ColorChanger : TimedBehaviour
     {

@@ -1,12 +1,12 @@
 ﻿using HarmonyLib;
-using StupidTemplate.Notifications;
+using MistTemp.Notifications;
 using Photon.Pun;
 using Photon.Realtime;
 using System.IO;
 using UnityEngine;
-using static StupidTemplate.Menu.Main;
+using static MistTemp.Menu.Main;
 
-namespace StupidTemplate.Patches
+namespace MistTemp.Patches
 {
     [HarmonyPatch(typeof(MonoBehaviourPunCallbacks), "OnPlayerEnteredRoom")]
     internal class JoinPatch : MonoBehaviour

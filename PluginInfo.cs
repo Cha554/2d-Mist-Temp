@@ -1,4 +1,4 @@
-﻿namespace StupidTemplate
+﻿namespace MistTemp
 {
     internal class PluginInfo
     {

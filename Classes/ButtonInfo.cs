@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StupidTemplate.Classes
+namespace MistTemp.Classes
 {
     public class ButtonInfo
     {

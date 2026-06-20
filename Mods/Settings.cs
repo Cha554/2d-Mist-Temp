@@ -1,7 +1,7 @@
-﻿using static StupidTemplate.Menu.Main;
-using static StupidTemplate.Settings;
+﻿using static MistTemp.Menu.Main;
+using static MistTemp.Settings;
 
-namespace StupidTemplate.Mods
+namespace MistTemp.Mods
 {
     internal class SettingsMods
     {

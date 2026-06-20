@@ -1,8 +1,8 @@
-﻿using StupidTemplate.Classes;
-using StupidTemplate.Mods;
-using static StupidTemplate.Settings;
+﻿using MistTemp.Classes;
+using MistTemp.Mods;
+using static MistTemp.Settings;
 
-namespace StupidTemplate.Menu
+namespace MistTemp.Menu
 {
     internal class Buttons
     {

@@ -1,9 +1,9 @@
 using Photon.Pun;
 using UnityEngine;
-using static StupidTemplate.Menu.Main;
-using static StupidTemplate.Settings;
+using static MistTemp.Menu.Main;
+using static MistTemp.Settings;
 
-namespace StupidTemplate.Classes
+namespace MistTemp.Classes
 {
 	internal class Button : MonoBehaviour
 	{

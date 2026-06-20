@@ -1,24 +1,18 @@
 ﻿using HarmonyLib;
-using UnityEngine;
 
-namespace StupidTemplate.Patches
+namespace CFA.Patches
 {
     [HarmonyPatch(typeof(VRRig), "OnDisable")]
-    internal class GhostPatch : MonoBehaviour
+    public class RigPatch
     {
-        public static bool Prefix(VRRig __instance)
-        {
-            return !(__instance == GorillaTagger.Instance.offlineVRRig);
-        }
+        public static bool Prefix(VRRig __instance) =>
+            __instance != VRRig.LocalRig;
     }
 
-    // Thanks nugget for help with patch
-    [HarmonyPatch(typeof(VRRigJobManager), "DeregisterVRRig")]
-    public static class GhostPatch2
+    [HarmonyPatch(typeof(VRRig), "PostTick")]
+    public class RigPatch2
     {
-        public static bool Prefix(VRRigJobManager __instance, VRRig rig)
-        {
-            return !(__instance == GorillaTagger.Instance.offlineVRRig);
-        }
+        public static bool Prefix(VRRig __instance) =>
+            !__instance.isLocal || __instance.enabled;
     }
 }
